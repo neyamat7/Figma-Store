@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/home.css" />
+    <title>Figma Store</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="nav-wrapper">
+          <div id="left">
+            <div id="left-menu">
+              <a class="btn" href="#">Shop</a>
+              <a class="btn" href="#">About</a>
+            </div>
+            <div id="mobile-menu">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            </div>
+            <a id="search" href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                />
+              </svg>
+            </a>
+          </div>
+          <div id="middle"><h1>The Figma Store</h1></div>
+          <div id="right">
+            <a id="person" href=""
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
+                />
+              </svg>
+            </a>
+            <a class="btn" href="#"><span id="cart-btn">Cart</span> 0</a>
+          </div>
+        </div>
+      </nav>
+
+      <section id="banner">
+        <div id="content">
+          <div id="img1">
+            <img src="/images/img1.jpg" alt="" />
+            <h1>All Smiles Nalgene</h1>
+          </div>
+          <div id="img2">
+            <img src="/images/img2.jpg" alt="" />
+            <h1>All Smiles Nalgene</h1>
+          </div>
+          <div id="img3">
+            <img src="/images/img3.jpg" alt="" />
+            <h1>All Smiles Nalgene</h1>
+          </div>
+        </div>
+        <div id="circle">
+          <img src="images/inkpx-curved-text.png" alt="" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="#ffc700"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+            id="hand"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M10.05 4.575a1.575 1.575 0 1 0-3.15 0v3m3.15-3v-1.5a1.575 1.575 0 0 1 3.15 0v1.5m-3.15 0 .075 5.925m3.075.75V4.575m0 0a1.575 1.575 0 0 1 3.15 0V15M6.9 7.575a1.575 1.575 0 1 0-3.15 0v8.175a6.75 6.75 0 0 0 6.75 6.75h2.018a5.25 5.25 0 0 0 3.712-1.538l1.732-1.732a5.25 5.25 0 0 0 1.538-3.712l.003-2.024a.668.668 0 0 1 .198-.471 1.575 1.575 0 1 0-2.228-2.228 3.818 3.818 0 0 0-1.12 2.687M6.9 7.575V12m6.27 4.318A4.49 4.49 0 0 1 16.35 15m.002 0h-.002"
+            />
+          </svg>
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="lightblue"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+            id="hand-2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M10.05 4.575a1.575 1.575 0 1 0-3.15 0v3m3.15-3v-1.5a1.575 1.575 0 0 1 3.15 0v1.5m-3.15 0 .075 5.925m3.075.75V4.575m0 0a1.575 1.575 0 0 1 3.15 0V15M6.9 7.575a1.575 1.575 0 1 0-3.15 0v8.175a6.75 6.75 0 0 0 6.75 6.75h2.018a5.25 5.25 0 0 0 3.712-1.538l1.732-1.732a5.25 5.25 0 0 0 1.538-3.712l.003-2.024a.668.668 0 0 1 .198-.471 1.575 1.575 0 1 0-2.228-2.228 3.818 3.818 0 0 0-1.12 2.687M6.9 7.575V12m6.27 4.318A4.49 4.49 0 0 1 16.35 15m.002 0h-.002"
+            />
+          </svg>
+
+          <div id="line">
+            <div id="line-1"></div>
+            <div id="line-2"></div>
+            <div id="line-3"></div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- main section starts -->
+    <main>
+      <div id="desc">
+        <h1>
+          Figma's
+          <span>
+            <img src="images/icons/1-burst.svg" alt="" />
+          </span>
+          Collection
+          <span>
+            <img src="images/icons/2-word-symbol-hourglass.static.svg" alt="" />
+          </span>
+          Of <span class="text-black">Layers</span>
+          <span>
+            <img src="images/icons/3-word-symbol-zag.static.svg" alt="" />
+          </span>
+          And
+          <span>
+            <img src="images/icons/4-word-symbol-dots.static.svg" alt="" />
+          </span>
+          <span class="text-black">Components</span>
+          <span>
+            <img src="images/icons/5-word-symbol-sun.static.svg" alt="" />
+          </span>
+          For you
+          <span>
+            <img src="images/icons/6-word-symbol-comet.static.svg" alt="" />
+          </span>
+          and<span>
+            <img src="images/icons/7-word-symbol-snake.static.svg" alt="" />
+          </span>
+          your<span>
+            <img src="images/icons/8-word-symbol-tri.static.svg" alt="" />
+          </span>
+          friends
+        </h1>
+      </div>
+
+      <div id="card-container">
+        <div class="card">
+          <div class="img">
+            <img
+              src="images/card-images/14_600x.webp"
+              alt=""
+              class="hover-img"
+              style="background: url(../images/card-images/bg4.jpg)"
+            />
+            <img
+              class="card-img"
+              src="images/card-images/20240619_Figma_Store_4914_600x.webp"
+              alt=""
+            />
+          </div>
+          <div class="product-desc">
+            <h1>New! The Prompt Magazine</h1>
+            <p>Tk 1,900</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img
+              src="images/card-images/hover2.jpg"
+              alt=""
+              class="hover-img"
+              style="background: url(../images/card-images/bg2.jpg)"
+            />
+            <img class="card-img" src="images/card-images/card2.jpg" alt="" />
+          </div>
+          <div class="product-desc">
+            <h1>New! The Prompt Magazine</h1>
+            <p>Tk 1,900</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img
+              src="images/card-images/hover3.jpg"
+              alt=""
+              class="hover-img"
+              style="background: url(../images/card-images/bg3.jpg)"
+            />
+            <img class="card-img" src="images/card-images/card3.jpg" alt="" />
+          </div>
+          <div class="product-desc">
+            <h1>New! The Prompt Magazine</h1>
+            <p>Tk 1,900</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img
+              src="images/card-images/hover4.jpg"
+              alt=""
+              class="hover-img"
+              style="background: url(../images/card-images/bg4.jpg)"
+            />
+            <img class="card-img" src="images/card-images/card4.jpg" alt="" />
+          </div>
+          <div class="product-desc">
+            <h1>New! The Prompt Magazine</h1>
+            <p>Tk 1,900</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img
+              src="images/card-images/hover5.jpg"
+              alt=""
+              class="hover-img"
+              style="background: url(../images/card-images/bg5.jpg)"
+            />
+            <img class="card-img" src="images/card-images/card5.jpg" alt="" />
+          </div>
+          <div class="product-desc">
+            <h1>New! The Prompt Magazine</h1>
+            <p>Tk 1,900</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img
+              src="images/card-images/hover2.jpg"
+              alt=""
+              class="hover-img"
+              style="background: url(../images/card-images/bg3.jpg)"
+            />
+            <img class="card-img" src="images/card-images/card2.jpg" alt="" />
+          </div>
+          <div class="product-desc">
+            <h1>New! The Prompt Magazine</h1>
+            <p>Tk 1,900</p>
+          </div>
+        </div>
+
+        <div class="card long-card">
+          <div class="img">
+            <img
+              src="images/card-images/hover6.jpg"
+              alt=""
+              class="hover-img"
+              style="background: url(../images/card-images/bg6.jpg)"
+            />
+            <img class="card-img" src="images/card-images/card6.jpg" alt="" />
+          </div>
+          <div class="product-desc">
+            <h1>New! The Prompt Magazine</h1>
+            <p>Tk 1,900</p>
+          </div>
+        </div>
+
+        <div class="card long-card">
+          <div class="img">
+            <img
+              src="images/card-images/hover7.jpg"
+              alt=""
+              class="hover-img"
+              style="background: url(../images/card-images/bg7.jpg)"
+            />
+            <img class="card-img" src="images/card-images/card7.jpg" alt="" />
+          </div>
+          <div class="product-desc">
+            <h1>New! The Prompt Magazine</h1>
+            <p>Tk 1,900</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img
+              src="images/card-images/hover5.jpg"
+              alt=""
+              class="hover-img"
+              style="background: url(../images/card-images/bg5.jpg)"
+            />
+            <img class="card-img" src="images/card-images/card5.jpg" alt="" />
+          </div>
+          <div class="product-desc">
+            <h1>New! The Prompt Magazine</h1>
+            <p>Tk 1,900</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img
+              src="images/card-images/hover4.jpg"
+              alt=""
+              class="hover-img"
+              style="background: url(../images/card-images/bg4.jpg)"
+            />
+            <img class="card-img" src="images/card-images/card4.jpg" alt="" />
+          </div>
+          <div class="product-desc">
+            <h1>New! The Prompt Magazine</h1>
+            <p>Tk 1,900</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img
+              src="images/card-images/hover3.jpg"
+              alt=""
+              class="hover-img"
+              style="background: url(../images/card-images/bg4.jpg)"
+            />
+            <img class="card-img" src="images/card-images/card3.jpg" alt="" />
+          </div>
+          <div class="product-desc">
+            <h1>New! The Prompt Magazine</h1>
+            <p>Tk 1,900</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img
+              src="images/card-images/hover2.jpg"
+              alt=""
+              class="hover-img"
+              style="background: url(../images/card-images/bg2.jpg)"
+            />
+            <img class="card-img" src="images/card-images/card2.jpg" alt="" />
+          </div>
+          <div class="product-desc">
+            <h1>New! The Prompt Magazine</h1>
+            <p>Tk 1,900</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img
+              src="images/card-images/hover5.jpg"
+              alt=""
+              class="hover-img"
+              style="background: url(../images/card-images/bg5.jpg)"
+            />
+            <img class="card-img" src="images/card-images/card5.jpg" alt="" />
+          </div>
+          <div class="product-desc">
+            <h1>New! The Prompt Magazine</h1>
+            <p>Tk 1,900</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img
+              src="images/card-images/hover4.jpg"
+              alt=""
+              class="hover-img"
+              style="background: url(../images/card-images/bg4.jpg)"
+            />
+            <img class="card-img" src="images/card-images/card4.jpg" alt="" />
+          </div>
+          <div class="product-desc">
+            <h1>New! The Prompt Magazine</h1>
+            <p>Tk 1,900</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img
+              src="images/card-images/hover3.jpg"
+              alt=""
+              class="hover-img"
+              style="background: url(../images/card-images/bg3.jpg)"
+            />
+            <img class="card-img" src="images/card-images/card3.jpg" alt="" />
+          </div>
+          <div class="product-desc">
+            <h1>New! The Prompt Magazine</h1>
+            <p>Tk 1,900</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img
+              src="images/card-images/hover2.jpg"
+              alt=""
+              class="hover-img"
+              style="background: url(../images/card-images/bg2.jpg)"
+            />
+            <img class="card-img" src="images/card-images/card2.jpg" alt="" />
+          </div>
+          <div class="product-desc">
+            <h1>New! The Prompt Magazine</h1>
+            <p>Tk 1,900</p>
+          </div>
+        </div>
+
+        <div class="card long-card">
+          <div class="img">
+            <img
+              src="images/card-images/hoverlong.jpg"
+              alt=""
+              class="hover-img"
+              style="background: url(../images/card-images/longbg.jpg)"
+            />
+            <img class="card-img" src="images/card-images/long.jpg" alt="" />
+          </div>
+          <div class="product-desc">
+            <h1>New! The Prompt Magazine</h1>
+            <p>Tk 1,900</p>
+          </div>
+        </div>
+
+        <div class="card long-card">
+          <div class="img">
+            <img
+              src="images/card-images/hover6.jpg"
+              alt=""
+              class="hover-img"
+              style="background: url(../images/card-images/bg6.jpg)"
+            />
+            <img class="card-img" src="images/card-images/card6.jpg" alt="" />
+          </div>
+          <div class="product-desc">
+            <h1>New! The Prompt Magazine</h1>
+            <p>Tk 1,900</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img
+              src="images/card-images/hover2.jpg"
+              alt=""
+              class="hover-img"
+              style="background: url(../images/card-images/bg2.jpg)"
+            />
+            <img class="card-img" src="images/card-images/card2.jpg" alt="" />
+          </div>
+          <div class="product-desc">
+            <h1>New! The Prompt Magazine</h1>
+            <p>Tk 1,900</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img
+              src="images/card-images/hover3.jpg"
+              alt=""
+              class="hover-img"
+              style="background: url(../images/card-images/bg3.jpg)"
+            />
+            <img class="card-img" src="images/card-images/card3.jpg" alt="" />
+          </div>
+          <div class="product-desc">
+            <h1>New! The Prompt Magazine</h1>
+            <p>Tk 1,900</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img
+              src="images/card-images/hover4.jpg"
+              alt=""
+              class="hover-img"
+              style="background: url(../images/card-images/bg4.jpg)"
+            />
+            <img class="card-img" src="images/card-images/card4.jpg" alt="" />
+          </div>
+          <div class="product-desc">
+            <h1>New! The Prompt Magazine</h1>
+            <p>Tk 1,900</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img
+              src="images/card-images/hover5.jpg"
+              alt=""
+              class="hover-img"
+              style="background: url(../images/card-images/bg5.jpg)"
+            />
+            <img class="card-img" src="images/card-images/card5.jpg" alt="" />
+          </div>
+          <div class="product-desc">
+            <h1>New! The Prompt Magazine</h1>
+            <p>Tk 1,900</p>
+          </div>
+        </div>
+      </div>
+      <!-- cards section ends -->
+    </main>
+    <!-- main section ends -->
+
+    <!-- footer  start -->
+    <footer>
+      <div id="footer-content">
+        <div id="top">
+          <div class="logo">
+            <h1>The Figma Store</h1>
+          </div>
+
+          <div>
+            <h1>Objects That <br />Inspire</h1>
+          </div>
+
+          <div id="btn-link">
+            <ul>
+              <li><a href="">FAQ</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Terms of Service</a></li>
+            </ul>
+          </div>
+
+          <div id="footer-desc">
+            <p>
+              This site is powered by
+              <span>Harper + Scott, a Certified B-Corporation.</span> For more
+              information read Harper + Scott's <span>CSR policy.</span>
+            </p>
+          </div>
+        </div>
+
+        <div id="down">
+          <div id="social-items">
+            <ul>
+              <li>
+                <a href="#"
+                  >Figma<span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg> </span
+                ></a>
+              </li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Youtube</a></li>
+            </ul>
+          </div>
+
+          <div id="top-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="black"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m15 11.25-3-3m0 0-3 3m3-3v7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div id="marquee">
+        <span>objects for our time on objects for our time on </span>
+        <span>objects for our time on objects for our time on </span>
+      </div>
+    </footer>
+    <!-- footer ends -->
+  </body>
+</html>
