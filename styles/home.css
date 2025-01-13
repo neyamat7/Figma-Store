@@ -109,6 +109,14 @@ nav {
 /* banner section */
 #banner {
   width: 100%;
+  transform: translateY(-50%);
+  animation: banner 1s forwards;
+}
+
+@keyframes banner {
+  to {
+    transform: translateY(0);
+  }
 }
 
 #content {
@@ -126,6 +134,8 @@ nav {
   height: 100%;
   max-width: 550px;
   position: relative;
+  transform: translateX(-100%);
+  animation: img1 1s forwards;
 }
 #img1:hover h1 {
   display: inline-blocks;
@@ -146,6 +156,15 @@ nav {
 #img2,
 #img3 {
   display: none;
+}
+
+#img2 {
+  transform: translateY(-100%);
+  animation: img2 1s forwards;
+}
+#img3 {
+  transform: translateX(100%);
+  animation: img3 1s forwards;
 }
 #img1 img {
   height: 100%;
@@ -654,6 +673,7 @@ footer #marquee span {
     right: 10%;
     bottom: -100px;
   }
+
   #line {
     height: 30px;
     width: 30px;
@@ -762,5 +782,23 @@ footer #marquee span {
 @media only screen and (min-width: 1440px) {
   #desc {
     width: 70%;
+  }
+}
+
+@keyframes img1 {
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes img2 {
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes img3 {
+  to {
+    transform: translateX(0);
   }
 }
